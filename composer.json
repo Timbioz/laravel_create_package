@@ -26,13 +26,13 @@
             "database/factories"
         ],
         "psr-4": {
-            "Timbioz\\Helper\\": "packages/Timbioz/Helper/src",
+            "Timbioz\\Helper\\": "packages/timbioz/helper/src",
             "App\\": "app/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Timbioz\\Helper\\": "packages/Timbioz/Helper/src",
+            "Timbioz\\Helper\\": "packages/timbioz/helper/src",
             "Tests\\": "tests/"
         }
     },
