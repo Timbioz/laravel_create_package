@@ -1,0 +1,38 @@
+{
+    "name": "timbioz/helper",
+    "description": ":description",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Timbioz",
+            "email": "volkovtim@gmail.com",
+            "homepage": "https://github.com/Timbioz"
+        }
+    ],
+    "homepage": "https://github.com/timbioz/helper",
+    "keywords": ["Laravel", "Helper"],
+    "require": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Timbioz\\Helper\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Timbioz\\Helper\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Timbioz\\Helper\\HelperServiceProvider"
+            ],
+            "aliases": {
+                "Helper": "Timbioz\\Helper\\Facades\\Helper"
+            }
+        }
+    }
+}
