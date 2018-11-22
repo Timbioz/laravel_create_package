@@ -15,6 +15,7 @@ class HelperServiceProvider extends ServiceProvider
     {
         $this->loadRoutesFrom(__DIR__ . "/routes/web.php");
         $this->loadViewsFrom(__DIR__ . "/resources/views", "helper");
+        $this->loadMigrationsFrom(__DIR__ . "/migrations");
     }
 
 

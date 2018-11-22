@@ -1,6 +1,6 @@
 <?php
 
-namespace Timbioz\Helper\Http\Controllers;
+namespace Timbioz\Helper\Controllers;
 
 use App\Http\Controllers\Controller;
 
