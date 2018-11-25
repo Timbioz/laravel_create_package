@@ -18,8 +18,8 @@ class CreateTagsTable extends Migration
             $table->unsignedInteger("user_id")->nullable();
             $table->unsignedInteger("parent_id")->nullable();
             $table->unsignedInteger("modified_id")->nullable();
-            $table->string("title")->nullable();
-            $table->string("slug");
+            $table->string("title");
+            $table->string("slug")->unique();
             $table->string("description")->nullable();
             $table->string("short_description")->nullable();
             $table->string("seo_title")->nullable();
